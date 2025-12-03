@@ -114,8 +114,8 @@ Invoke-WebRequest -Uri "http://127.0.0.1:8000/api/login" `
   -Method POST `
   -Headers @{ "Content-Type" = "application/json" } `
   -Body '{
-    "email": "peipei.wee@bitzaro.com",
-    "password": "181103wee"
+    "email": "xinen.lim@bitzaro.com",
+    "password": "limxinen"
   }'
 ```
 
@@ -126,8 +126,8 @@ Invoke-WebRequest -Uri "http://127.0.0.1:8000/api/login" `
   "data": {
     "user": {
       "id": 1,
-      "name": "Pei Pei",
-      "email": "peipei.wee@bitzaro.com"
+      "name": "Xin En",
+      "email": "xinen.lim@bitzaro.com"
     },
     "token": "2|XyZaBcDeFgHiJkLmNoPqRsTuVw..."
   }
@@ -138,8 +138,8 @@ Invoke-WebRequest -Uri "http://127.0.0.1:8000/api/login" `
 
 1. Visit `http://localhost:8000`
 2. Login with sample credentials:
-   - **Email:** `peipei.wee@bitzaro.com`
-   - **Password:** `181103`
+   - **Email:** `xinen.lim@bitzaro.com`
+   - **Password:** `limxinen`
 3. Features available:
    - **My Tickets Tab:** View and manage your tickets
    - **All Tickets Tab:** Browse all tickets in the system
