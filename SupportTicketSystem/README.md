@@ -68,7 +68,7 @@ Visit: `http://localhost:8000`
 If you imported the SQL file with sample data, use these credentials:
 
 **Email:** `peipei.wee@bitzaro.com`  
-**Password:** `181103`
+**Password:** `181103wee`
 
 **Email:** `xinen.lim@bitzaro.com`  
 **Password:** `limxinen`
