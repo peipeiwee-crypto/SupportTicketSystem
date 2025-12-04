@@ -226,7 +226,8 @@ Retrieve all tickets created by the authenticated user.
 
 **Example with Filters:**
 ```
-{{base_url}}/api/tickets?status=open&priority=high
+{{base_url}}/api/tickets?status=open&priority=high //created ticket of the login user
+{{base_url}}/api/tickets/all?status=open&priority=high //filter for all tickets by all users
 ```
 
 **Expected Response (200 OK):**
